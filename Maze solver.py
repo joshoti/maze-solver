@@ -106,8 +106,7 @@ def fillMaze2(maze):
     insertBorder(3, 'ur', maze)
     insertBorder(4, 'lr', maze)
     insertBorder(6, 'r', maze)
-    insertBorder(7, 'r', maze) # difference: separates the left and right half
-    insertBorder(8, 'ud', maze)
+    insertBorder(8, 'ur', maze) # difference: separates the left and right half
     insertBorder(9, 'dr', maze)
     return maze
 
